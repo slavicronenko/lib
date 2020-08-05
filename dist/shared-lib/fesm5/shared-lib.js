@@ -7,7 +7,7 @@ var SharedComponent = /** @class */ (function () {
     };
     SharedComponent.ɵfac = function SharedComponent_Factory(t) { return new (t || SharedComponent)(); };
     SharedComponent.ɵcmp = ɵɵdefineComponent({ type: SharedComponent, selectors: [["lib-app-shared"]], decls: 1, vars: 0, template: function SharedComponent_Template(rf, ctx) { if (rf & 1) {
-            ɵɵtext(0, " Shared Component (v. 1.0.0)");
+            ɵɵtext(0, " Shared Component (v. 1.2.1)");
         } }, encapsulation: 2 });
     return SharedComponent;
 }());
@@ -15,7 +15,7 @@ var SharedComponent = /** @class */ (function () {
         type: Component,
         args: [{
                 selector: 'lib-app-shared',
-                template: "    Shared Component (v. 1.0.0)",
+                template: "    Shared Component (v. 1.2.1)",
             }]
     }], function () { return []; }, null); })();
 
