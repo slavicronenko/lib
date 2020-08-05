@@ -11,7 +11,7 @@
         };
         SharedComponent.ɵfac = function SharedComponent_Factory(t) { return new (t || SharedComponent)(); };
         SharedComponent.ɵcmp = core.ɵɵdefineComponent({ type: SharedComponent, selectors: [["lib-app-shared"]], decls: 1, vars: 0, template: function SharedComponent_Template(rf, ctx) { if (rf & 1) {
-                core.ɵɵtext(0, " Shared Component (v. 1.2.1)");
+                core.ɵɵtext(0, " Shared Component (v. 1.2.4)");
             } }, encapsulation: 2 });
         return SharedComponent;
     }());
@@ -19,7 +19,7 @@
             type: core.Component,
             args: [{
                     selector: 'lib-app-shared',
-                    template: "    Shared Component (v. 1.2.1)",
+                    template: "    Shared Component (v. 1.2.4)",
                 }]
         }], function () { return []; }, null); })();
 
